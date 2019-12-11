@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robot-assited Feeding on Food Manipulation</title>
+    <link>https://mushr.io/</link>
+    <description>Recent content in Robot-assited Feeding on Food Manipulation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2019 16:59:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://mushr.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Datasets</title>
+      <link>https://mushr.io/datasets/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://mushr.io/datasets/</guid>
+      <description>A Dataset of Food Manipulation Strategies.
+A Dataset of Food Items with Skewering Location and Rotation Masks.
+A Dataset of Robot Bite Acquisition Trials on Solid Food Using Different Manipulation Strategies.</description>
+    </item>
+    
+    <item>
+      <title>Demos</title>
+      <link>https://mushr.io/demos/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://mushr.io/demos/</guid>
+      <description> Autonomous robot feeding for upper-extremity mobility impaired people: Integrating sensing, perception, learning, motion planning, and robot control.
+T. Bhattacharjee, D. Gallenberger, D. Dubois, L. L&amp;rsquo;Écuyer-Lapiere, Y. Kim, A. Mandalika, R. Scalise, R. Qu, H. Song, E. Gordon, and S.S. Srinivasa.
+Conference on Neural Information Processing Systems, 2018
+Best Demo Award Winner
+   
+Events  TTI/Vanguard Visit and Demo  March 2, 2020 UW: Robotics Lab &amp;nbsp;  American Association for the Advancement of Science (AAAS) Demo  February 14-15, 2020 Washington Convention Center &amp;nbsp;  Computing Open House 2019  December 7, 2019 UW: Gates Center Photos &amp;nbsp;  Clive Thompson Video Shoot  October 23, 2019 UW: Robotics Lab Photography by Ariana McLaughlin &amp;nbsp;  Toyota Research Institute Demo  October 2, 2019 UW: Robotics Lab &amp;nbsp;  US Patent Office Demo  July 16, 2019 UW: Wallace Hall, AMP Lab &amp;nbsp;  Engineering Discover Days 2019  April 26, 2019 UW: Robotics Lab &amp;nbsp;  Puget Sound Business Journal Demo  April 25, 2019; Published May 3, 2019 UW: Robotics Lab UW team develops AI-powered robotic arm to help people eat &amp;nbsp;  Columns Magazine  March 28, 2019 UW: Robotics Lab Photos &amp;nbsp;  NeurIPS 2018 Demonstration  December 5, 2018 &amp;nbsp;  Computing Open House 2018  December 2, 2018 UW: Allen Center &amp;nbsp;  CSE Woman’s Day Demo  April 6, 2018 UW: Robotics Lab   </description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://mushr.io/publications/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://mushr.io/publications/</guid>
+      <description>Towards Robotic Feeding: Role of Haptics in Fork-based Food Manipulation.
+T. Bhattacharjee, G. Lee, H. Song, and S.S. Srinivasa.
+IEEE Robotics and Automation Letters, 2019.
+Transfer depends on Acquisition: Analyzing Manipulation Strategies for Robotic Feeding.
+D. Gallenberger, T. Bhattacharjee, Y. Kim, and S.S. Srinivasa.
+ACM/IEEE International Conference on Human-Robot Interaction, 2019.
+Best Paper Award Winner for Technical Advances in HRI
+Sensing Shear Forces During Food Manipulation: Resolving the Trade-Off Between Range and Sensitivity.</description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://mushr.io/videos/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://mushr.io/videos/</guid>
+      <description>Online Learning for Food Manipulation This video shows how a robot can learn to skewer previously-unseen food items with different action distributions using online learning with a contextual bandit formulation.
+ 
+Generalizing Skewering Strategies across Food Items This video summarizes our work on SPANet framework and shows demonstrations of the robot&amp;rsquo;s skewering trials generalized across food items.
+ 
+Transfer depends on Acquisition: Analyzing Manipulation Strategies for Robotic Feeding</description>
+    </item>
+    
+    <item>
+      <title>Press</title>
+      <link>https://mushr.io/press/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://mushr.io/press/</guid>
+      <description>This is press.</description>
+    </item>
+    
+    <item>
+      <title>Our Robot</title>
+      <link>https://mushr.io/hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mushr.io/hardware/</guid>
+      <description>ADA   ADA, the Assistive Dextrous Arm, mimics equipment used in real homes by people with mobility impairments. It consists of a Kinova JACO robotic arm mounted on a powered ROVI Mobility wheelchair. It is the main platform for our research thrust on assistive robotics and, specifically, robot-assisted feeding for people with upper-extremity impairments. The arm has 2 fingers that grasp a fork with a 3D-printed fork holder. For haptic feedback, it can either use the Forque, a fork instrumented with a 6-axis ATI Nano25 Force-Torque sensor, or a custom tactile sensor.</description>
+    </item>
+    
+    <item>
+      <title>Robot-assited Feeding</title>
+      <link>https://mushr.io/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mushr.io/overview/</guid>
+      <description>By Tapomayukh Bhattacharjee
+ Eating free-form food is one of the most intricate manipulation tasks we perform in our daily lives, demanding robust nonprehensile manipulation of a deformable hard-to-model target. Automating food manipulation is daunting as the universe of foods, cutlery, and human strategies is massive. To understand how humans manipulate food items during feeding and to explore ways to adapt their strategies to robots, we collected human trajectories by asking them to pick up food and feed it to a mannequin.</description>
+    </item>
+    
+  </channel>
+</rss>
