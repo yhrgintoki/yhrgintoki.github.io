@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mushr.io/datasets/</loc>
-    <lastmod>2019-11-03T16:59:00+07:00</lastmod>
+    <loc>https://mushr.io/hardware/gelsight-mini-tactile-sensor/</loc>
+    <lastmod>2018-11-28T15:14:54+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mushr.io/hardware/wireless-perception-module/</loc>
+    <lastmod>2018-11-28T15:14:54+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://mushr.io/demos/</loc>
+    <lastmod>2019-11-03T16:59:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mushr.io/datasets/</loc>
     <lastmod>2019-11-03T16:59:00+07:00</lastmod>
   </url>
   
@@ -28,16 +38,17 @@
   </url>
   
   <url>
+    <loc>https://mushr.io/hardware/</loc>
+    <lastmod>2018-11-28T15:14:54+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mushr.io/press/</loc>
     <lastmod>2018-02-22T17:01:34+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://mushr.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mushr.io/hardware/</loc>
   </url>
   
   <url>

@@ -12,17 +12,21 @@
     
     
     <item>
-      <title>Datasets</title>
-      <link>https://mushr.io/datasets/</link>
-      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      <title>Gelsight-Mini Tactile Sensor</title>
+      <link>https://mushr.io/hardware/gelsight-mini-tactile-sensor/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
       
-      <guid>https://mushr.io/datasets/</guid>
-      <description>A Dataset of Food Manipulation Strategies.
-A dataset of multimodal sensing modalities (forces, torques, poses, RGBD images) for feeding task.
-A Dataset of Food Items with Skewering Location and Rotation Masks.
-A dataset of annotations of skewerable food items for image-based bite acquisition and bite transfer task.
-A Dataset of Robot Bite Acquisition Trials on Solid Food Using Different Manipulation Strategies.
-A dataset of attempts by the Autonomous Dextrous Arm (ADA), a JACO 2 arm equipped with an eye-in-hand camera and a force-torque sensor, to skewer one of 16-types of food given one of 6 manipulation strategies (3 pitch angles X 2 roll angles).</description>
+      <guid>https://mushr.io/hardware/gelsight-mini-tactile-sensor/</guid>
+      <description>Vision-based tactile sensors</description>
+    </item>
+    
+    <item>
+      <title>Wireless Perception Module</title>
+      <link>https://mushr.io/hardware/wireless-perception-module/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
+      
+      <guid>https://mushr.io/hardware/wireless-perception-module/</guid>
+      <description>A module which interfaces sensors and wirelessly transmits high-bandwidth data over WiFi</description>
     </item>
     
     <item>
@@ -36,7 +40,21 @@ T. Bhattacharjee, D. Gallenberger, D. Dubois, L. L&amp;rsquo;Écuyer-Lapiere, Y.
 Conference on Neural Information Processing Systems, 2018
 Best Demo Award Winner
   
-Events  TTI/Vanguard Visit and Demo  March 2, 2020 UW: Robotics Lab &amp;nbsp;  American Association for the Advancement of Science (AAAS) Demo  February 14-15, 2020 Washington Convention Center &amp;nbsp;  Computing Open House 2019  December 7, 2019 UW: Gates Center &amp;nbsp;  Clive Thompson Video Shoot  October 23, 2019 UW: Robotics Lab Photography by Ariana McLaughlin &amp;nbsp;  Toyota Research Institute Demo  October 2, 2019 UW: Robotics Lab &amp;nbsp;  US Patent Office Demo  July 16, 2019 UW: Wallace Hall, AMP Lab &amp;nbsp;  Engineering Discover Days 2019  April 26, 2019 UW: Robotics Lab &amp;nbsp;  Puget Sound Business Journal Demo  April 25, 2019; Published May 3, 2019 UW: Robotics Lab &amp;nbsp;  NeurIPS 2018 Demonstration  December 5, 2018 &amp;nbsp;  Computing Open House 2018  December 2, 2018 UW: Allen Center &amp;nbsp;  CSE Woman’s Day Demo  April 6, 2018 UW: Robotics Lab       </description>
+Outreach  TTI/Vanguard Visit and Demo  March 2, 2020 UW: Robotics Lab &amp;nbsp;  American Association for the Advancement of Science (AAAS) Demo  February 14-15, 2020 Washington Convention Center &amp;nbsp;  Computing Open House 2019  December 7, 2019 UW: Gates Center &amp;nbsp;  Clive Thompson Video Shoot  October 23, 2019 UW: Robotics Lab Photography by Ariana McLaughlin &amp;nbsp;  Toyota Research Institute Demo  October 2, 2019 UW: Robotics Lab &amp;nbsp;  US Patent Office Demo  July 16, 2019 UW: Wallace Hall, AMP Lab &amp;nbsp;  Engineering Discover Days 2019  April 26, 2019 UW: Robotics Lab &amp;nbsp;  Puget Sound Business Journal Demo  April 25, 2019; Published May 3, 2019 UW: Robotics Lab &amp;nbsp;  NeurIPS 2018 Demonstration  December 5, 2018 &amp;nbsp;  Computing Open House 2018  December 2, 2018 UW: Allen Center &amp;nbsp;  CSE Woman’s Day Demo  April 6, 2018 UW: Robotics Lab       </description>
+    </item>
+    
+    <item>
+      <title>Open Datasets</title>
+      <link>https://mushr.io/datasets/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://mushr.io/datasets/</guid>
+      <description>A Dataset of Food Manipulation Strategies.
+A dataset of multimodal sensing modalities (forces, torques, poses, RGBD images) for feeding task.
+A Dataset of Food Items with Skewering Location and Rotation Masks.
+A dataset of annotations of skewerable food items for image-based bite acquisition and bite transfer task.
+A Dataset of Robot Bite Acquisition Trials on Solid Food Using Different Manipulation Strategies.
+A dataset of attempts by the Autonomous Dextrous Arm (ADA), a JACO 2 arm equipped with an eye-in-hand camera and a force-torque sensor, to skewer one of 16-types of food given one of 6 manipulation strategies (3 pitch angles X 2 roll angles).</description>
     </item>
     
     <item>
@@ -45,14 +63,13 @@ Events  TTI/Vanguard Visit and Demo  March 2, 2020 UW: Robotics Lab &amp;nbsp;  
       <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
       
       <guid>https://mushr.io/publications/</guid>
-      <description>Towards Robotic Feeding: Role of Haptics in Fork-based Food Manipulation.
+      <description>Is More Autonomy Always Better? Exploring Preferences of Users with Mobility Impairments in Robot-assisted Feeding.
+T. Bhattacharjee, E.K. Gordon, R. Scalise, M.E. Cabrera, A. Caspi, M. Cakmak, and S.S. Srinivasa.
+In ACM/IEEE International Conference on Human-Robot Interaction, 2020.
+Towards Robotic Feeding: Role of Haptics in Fork-based Food Manipulation.
 T. Bhattacharjee, G. Lee, H. Song, and S.S. Srinivasa.
 IEEE Robotics and Automation Letters, 2019.
-Transfer depends on Acquisition: Analyzing Manipulation Strategies for Robotic Feeding.
-D. Gallenberger, T. Bhattacharjee, Y. Kim, and S.S. Srinivasa.
-ACM/IEEE International Conference on Human-Robot Interaction, 2019.
-Best Paper Award Winner for Technical Advances in HRI
-Sensing Shear Forces During Food Manipulation: Resolving the Trade-Off Between Range and Sensitivity.</description>
+Transfer depends on Acquisition: Analyzing Manipulation Strategies for Robotic Feeding.</description>
     </item>
     
     <item>
@@ -61,11 +78,10 @@ Sensing Shear Forces During Food Manipulation: Resolving the Trade-Off Between R
       <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
       
       <guid>https://mushr.io/videos/</guid>
-      <description>Online Learning for Food Manipulation This video shows how a robot can learn to skewer previously-unseen food items with different action distributions using online learning with a contextual bandit formulation.
+      <description>Evaluating an Assistive-Feeding Robot with Users with Mobility Limitations In this work, we explore user preferences for different modes of autonomy for robot-assisted feeding given perceived error risks and also analyze the effect of input modalities on technology acceptance.
+Specifically, we tested: Speed(Fast vs. Slow), Interface (Web-based vs. Voice-based), Environment (Social vs. Individual), Level of Autonomy: (Full vs. Partial vs. Low)
  
-Generalizing Skewering Strategies across Food Items This video summarizes our work on SPANet framework and shows demonstrations of the robot&amp;rsquo;s skewering trials generalized across food items.
- 
-Transfer depends on Acquisition: Analyzing Manipulation Strategies for Robotic Feeding</description>
+Online Learning for Food Manipulation This video shows how a robot can learn to skewer previously-unseen food items with different action distributions using online learning with a contextual bandit formulation.</description>
     </item>
     
     <item>
@@ -75,16 +91,6 @@ Transfer depends on Acquisition: Analyzing Manipulation Strategies for Robotic F
       
       <guid>https://mushr.io/press/</guid>
       <description>This is press.</description>
-    </item>
-    
-    <item>
-      <title>Open Hardware</title>
-      <link>https://mushr.io/hardware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mushr.io/hardware/</guid>
-      <description>Gelsight-Mini Tactile Sensor Introduction Vision-based tactile sensors that employ cameras to capture high-resolution tactile information ofa soft elastomer pad area. These types of sensors [1]–[5] have seen a rise in popularity and development as they have demonstrated utility in manipulation, identification, and inspection tasks.
-Measurement of contact forces of a robot gripper plays an important role in manipulation tasks, specifically food manipulation where forces on a utensil may convey food properties or states.</description>
     </item>
     
     <item>

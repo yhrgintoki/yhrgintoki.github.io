@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Hardware on Food Manipulation</title>
+    <link>https://mushr.io/hardware/</link>
+    <description>Recent content in Open Hardware on Food Manipulation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:54 +1000</lastBuildDate>
+    
+	<atom:link href="https://mushr.io/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gelsight-Mini Tactile Sensor</title>
+      <link>https://mushr.io/hardware/gelsight-mini-tactile-sensor/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
+      
+      <guid>https://mushr.io/hardware/gelsight-mini-tactile-sensor/</guid>
+      <description>Vision-based tactile sensors</description>
+    </item>
+    
+    <item>
+      <title>Wireless Perception Module</title>
+      <link>https://mushr.io/hardware/wireless-perception-module/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
+      
+      <guid>https://mushr.io/hardware/wireless-perception-module/</guid>
+      <description>A module which interfaces sensors and wirelessly transmits high-bandwidth data over WiFi</description>
+    </item>
+    
+  </channel>
+</rss>
