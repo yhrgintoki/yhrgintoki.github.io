@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yhrgintoki.github.io/hardware/gelsight-mini-tactile-sensor/</loc>
-    <lastmod>2018-11-28T15:14:54+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yhrgintoki.github.io/hardware/wireless-perception-module/</loc>
+    <loc>https://yhrgintoki.github.io/hardware/wpm/</loc>
     <lastmod>2018-11-28T15:14:54+10:00</lastmod>
   </url>
   
@@ -53,6 +48,10 @@
   
   <url>
     <loc>https://yhrgintoki.github.io/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yhrgintoki.github.io/hardware/gts/</loc>
   </url>
   
   <url>
