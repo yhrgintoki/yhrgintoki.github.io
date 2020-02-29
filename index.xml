@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Robot-assited Feeding on Food Manipulation</title>
+    <title>Robot-assited Feeding on Robot Assisted Feeding</title>
     <link>https://yhrgintoki.github.io/</link>
-    <description>Recent content in Robot-assited Feeding on Food Manipulation</description>
+    <description>Recent content in Robot-assited Feeding on Robot Assisted Feeding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Nov 2019 16:59:00 +0700</lastBuildDate>
     
 	<atom:link href="https://yhrgintoki.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tactile Sensor</title>
+      <link>https://yhrgintoki.github.io/hardware/gts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/hardware/gts/</guid>
+      <description>A vision-based tactile sensors that employ cameras to capture high-resolution tactile information</description>
+    </item>
     
     <item>
       <title>Wireless Perception Module</title>
@@ -92,17 +101,6 @@ Online Learning for Food Manipulation This video shows how a robot can learn to 
       <guid>https://yhrgintoki.github.io/overview/</guid>
       <description>By Tapomayukh Bhattacharjee
  Eating free-form food is one of the most intricate manipulation tasks we perform in our daily lives, demanding robust nonprehensile manipulation of a deformable hard-to-model target. Automating food manipulation is daunting as the universe of foods, cutlery, and human strategies is massive. To understand how humans manipulate food items during feeding and to explore ways to adapt their strategies to robots, we collected human trajectories by asking them to pick up food and feed it to a mannequin.</description>
-    </item>
-    
-    <item>
-      <title>Tactile Sensor</title>
-      <link>https://yhrgintoki.github.io/hardware/gts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yhrgintoki.github.io/hardware/gts/</guid>
-      <description>Introduction
-Vision-based tactile sensors that employ cameras to capture high-resolution tactile information ofa soft elastomer pad area. These types of sensors [1]–[5] have seen a rise in popularity and development as they have demonstrated utility in manipulation, identification, and inspection tasks. The idea is inspired by the research in Ted Adelson&amp;rsquo;s group.
-Measurement of contact forces of a robot gripper plays an important role in manipulation tasks, specifically food manipulation where forces on a utensil may convey food properties or states.</description>
     </item>
     
   </channel>

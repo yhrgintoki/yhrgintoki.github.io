@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Hardware on Food Manipulation</title>
+    <title>Open Hardware on Robot Assisted Feeding</title>
     <link>https://yhrgintoki.github.io/hardware/</link>
-    <description>Recent content in Open Hardware on Food Manipulation</description>
+    <description>Recent content in Open Hardware on Robot Assisted Feeding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Nov 2018 15:14:54 +1000</lastBuildDate>
@@ -12,23 +12,21 @@
     
     
     <item>
+      <title>Tactile Sensor</title>
+      <link>https://yhrgintoki.github.io/hardware/gts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/hardware/gts/</guid>
+      <description>A vision-based tactile sensors that employ cameras to capture high-resolution tactile information</description>
+    </item>
+    
+    <item>
       <title>Wireless Perception Module</title>
       <link>https://yhrgintoki.github.io/hardware/wpm/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
       
       <guid>https://yhrgintoki.github.io/hardware/wpm/</guid>
       <description>A module which interfaces sensors and wirelessly transmits high-bandwidth data over WiFi</description>
-    </item>
-    
-    <item>
-      <title>Tactile Sensor</title>
-      <link>https://yhrgintoki.github.io/hardware/gts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yhrgintoki.github.io/hardware/gts/</guid>
-      <description>Introduction
-Vision-based tactile sensors that employ cameras to capture high-resolution tactile information ofa soft elastomer pad area. These types of sensors [1]–[5] have seen a rise in popularity and development as they have demonstrated utility in manipulation, identification, and inspection tasks. The idea is inspired by the research in Ted Adelson&amp;rsquo;s group.
-Measurement of contact forces of a robot gripper plays an important role in manipulation tasks, specifically food manipulation where forces on a utensil may convey food properties or states.</description>
     </item>
     
   </channel>
