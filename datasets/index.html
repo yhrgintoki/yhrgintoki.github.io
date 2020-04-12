@@ -11,7 +11,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.cbdd764ebbb1c6fbc52f1810008eb2cc5435eadbdbfb29abe4ff61e37811a74f.css">
+  <link rel="stylesheet" href="/css/style.min.396f18053a5bf413c99394e2e3e4247128fb3a9dfc4e3fd20eb69d2fb5482c42.css">
   
 
   
@@ -22,13 +22,6 @@
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     <li class="menu-item-publications">
       <a href="/publications/">
@@ -85,22 +78,13 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg"/></a>
+      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
-    
-    
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     
     
@@ -131,20 +115,24 @@
     
     
     
-    <li class="sub-menu">
-        <button class="dropbtn">Open Hardware</button>
-    <ul class="sub-menu-content">
+    <div class = "dropdown">
+    <button class="dropbtn">
+      <li class="menu-item-open hardware"></li>
+        <span>Open Hardware</span>
+      <li>
+    </button>
+    <ul class="dropdown-content">
       
         <li class="menu-item-tactile sensor">
-          <a href="/hardware/gts/">Tactile Sensor</a>
+          <a href="/hardware/gelsight-mini-tactile-sensor/">Tactile Sensor</a>
         </li>
       
         <li class="menu-item-wireless perception module">
-          <a href="/hardware/wpm/">Wireless Perception Module</a>
+          <a href="/hardware/wireless-perception-module/">Wireless Perception Module</a>
         </li>
       
     </ul>
-    </li>
+    </div>
     
     
     
@@ -192,15 +180,10 @@
       <div class="service service-single">
         <h1 class="title">Open Datasets</h1>
         <div class="content"><p><a href="https://doi.org/10.7910/DVN/8TTXZ7"><font size = 5>A Dataset of Food Manipulation Strategies.</font></a></p>
-
 <p>A dataset of multimodal sensing modalities (forces, torques, poses, RGBD images) for feeding task.</p>
-
 <p><a href="https://doi.org/10.7910/DVN/GHV7XZ"><font size = 5>A Dataset of Food Items with Skewering Location and Rotation Masks.</font></a></p>
-
 <p>A dataset of annotations of skewerable food items for image-based bite acquisition and bite transfer task.</p>
-
 <p><a href="https://doi.org/10.7910/DVN/8A1XO3"><font size = 5>A Dataset of Robot Bite Acquisition Trials on Solid Food Using Different Manipulation Strategies.</font></a></p>
-
 <p>A dataset of attempts by the Autonomous Dextrous Arm (ADA), a JACO 2 arm equipped with an eye-in-hand camera and a force-torque sensor, to skewer one of 16-types of food given one of 6 manipulation strategies (3 pitch angles X 2 roll angles). Each attempt contains RGB and Depth images, camera distortion parameters, and text describing the attempt as a &ldquo;fail&rdquo; or &ldquo;success&rdquo;</p>
 </div>
       </div>

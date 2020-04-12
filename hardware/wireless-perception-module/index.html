@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Wireless Perception Module - Food Manipulation</title>
+  <title>Wireless Perception Module - Robot Assisted Feeding</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://yhrgintoki.github.io/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.d27fc8fb75b044a542bd55f4202e977c4df7053b2a8582257e5b62a005c7fe3b.css">
+  <link rel="stylesheet" href="/css/style.min.396f18053a5bf413c99394e2e3e4247128fb3a9dfc4e3fd20eb69d2fb5482c42.css">
   
 
   
@@ -22,13 +22,6 @@
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     <li class="menu-item-publications">
       <a href="/publications/">
@@ -65,10 +58,10 @@
       </a>
     </li>
     
-    <li class="menu-item-other groups">
-      <a href="/others/">
+    <li class="menu-item-people">
+      <a href="https://personalrobotics.cs.washington.edu/people/">
         
-        <span>Other groups</span>
+        <span>People</span>
       </a>
     </li>
     
@@ -84,17 +77,14 @@
   <div class="wrapper">
     <div class='header'>
   <div class="container">
+    <div class="logo">
+      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
+    </div>
     <div id="main-menu" class="main-menu">
   <ul>
-    
-    
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     
     
@@ -125,12 +115,24 @@
     
     
     
-    <li class="menu-item-open hardware">
-      <a href="/hardware/">
-        
+    <div class = "dropdown">
+    <button class="dropbtn">
+      <li class="menu-item-open hardware"></li>
         <span>Open Hardware</span>
-      </a>
-    </li>
+      <li>
+    </button>
+    <ul class="dropdown-content">
+      
+        <li class="menu-item-tactile sensor">
+          <a href="/hardware/gelsight-mini-tactile-sensor/">Tactile Sensor</a>
+        </li>
+      
+        <li class="menu-item-wireless perception module">
+          <a href="/hardware/wireless-perception-module/">Wireless Perception Module</a>
+        </li>
+      
+    </ul>
+    </div>
     
     
     
@@ -143,10 +145,10 @@
     
     
     
-    <li class="menu-item-other groups">
-      <a href="/others/">
+    <li class="menu-item-people">
+      <a href="https://personalrobotics.cs.washington.edu/people/">
         
-        <span>Other groups</span>
+        <span>People</span>
       </a>
     </li>
     
@@ -177,76 +179,49 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">Wireless Perception Module</h1>
-        <div class="content">
-
-<p><font color=black>Introduction</font></p>
-
+        <div class="content"><p><font color=black>Introduction</font></p>
 <p>Robot manipulators glide through free space, constrained only by their own kinematics. Placing sensors like cameras or haptic transducers at their end-effectors enables egocentric interaction, but introduces a data transmission problem. A simple approach researchers often opt for is to fix wiring along the external shell of the robot. In practice, however, as the horizon of a robot’s task increases, so does the probability of the robot ensnaring itself in a tangle of its own wires.</p>
-
 <p>We want our manipulators to be free of tethers, while remaining flexible to adding and subtracting sensors as research needs rapidly change. Many manipulators on the current market lack internal channels for transmitting high-bandwidth data, and running wires too close to internal conduits can subject high-bandwidth signals to noise from electromagnetic interference (crosstalk).</p>
-
 <p>Our solution is a general-purpose module which interfaces sensors and wirelessly transmits high-bandwidth data over WiFi. We refer to it as the Wireless Perception Module or WiPer for short.</p>
-
 <figure>
     <img src="/imgs/wpm1.png"/> 
 </figure>
 
-
-<p>&nbsp;</p>
-
+<p> </p>
 <h2 id="software-architecture">Software Architecture</h2>
-
 <p>The pipeline can be broken down into 5 major components. 1) Frame Acquisition: saving raw data from the sensor, 2) Encoding: using jpeg compression to reduce per frame file size and saving into packets, 3) WiFi: broadcasting packets on network, 4) Decoding: unpacking and decompressing the data, 5) Perception Tasks: completing a task using the data.</p>
-
 <figure>
     <img src="/imgs/wpm2.png"/> 
 </figure>
 
-
 <h2 id="challenges-and-limitations">Challenges and Limitations</h2>
-
 <p>Meeting this form factor’s requirements with mostly off-the-shelf components necessitated thoughtful design. As compute scaled, nominal power draw scaled. As nominal power draw scaled, thermal radiation scaled. As thermal radiation scaled, size of devices scaled due to cooling needs. Ultimately, we struck a nice balance with the Intel Joule and a Quarter-sized buck-converter. Along that vein, we had to be mindful of the amount of power our manipulator (in this case the Kinova Jaco 6DoF) was capable of sourcing. The Jaco can source up to 3A@24Vand the Joule needs roughly 1.5A@12V on bootup. Adding in sensors that draw power means we need to balance all three needs on the same bus: the manipulator’s motors, compute, and sensing.</p>
-
 <p>The current software stack achieves an average of 29 FPS for RGB + D data, unaligned. When reconstructing a point cloud with RGBD data, it is necessary to temporally align the two signals. This, unfortunately, leads to drops in framerate for the reconstructed point cloud. This does not have a significant bearing on our current applications, but could be a limitation for future tasks. There is a workaround which involves a custom compression wrapper, but it excludes ROS and is currently undergoing development. We are also not taking full advantage of hardware acceleration for data compression on the Joule version — we expect work on this to lead to improvements in overall latency.</p>
-
 <h2 id="performance">Performance</h2>
-
 <p><strong>Choice of Network Matters.</strong> Seems obvious in retrospect, but something to pay attention to! Use a network without much traffic on it if you expect high framerates! Here’s a plot with uncompressed data from early on in our testing.</p>
-
 <figure>
     <img src="/imgs/wpm3.png"/> 
 </figure>
 
-
-<p>&nbsp;</p>
-
+<p> </p>
 <p><strong>Compression.</strong> Our best performing methods tested on the Joule platform have been a combination of Jpeg for RGB and Zlib for Depth data (intraframe). We’ve experimented with interframe methods, but performance was less stable. This is something we are excited to use moving forward.</p>
-
 <figure>
     <img src="/imgs/wpm4.png"/> 
 </figure>
 
-
-<p>&nbsp;</p>
-
+<p> </p>
 <p><strong>Framerate.</strong> The current average performance hovers around 29 FPS, depending on the complexity of the signal.</p>
-
 <figure>
     <img src="/imgs/wpm5.png"/> 
 </figure>
 
-
-<p>&nbsp;</p>
-
+<p> </p>
 <p><strong>Latency.</strong> With compression, we achieved &lt;50 ms which was more than sufficient for our current use cases.</p>
-
 <figure>
     <img src="/imgs/wpm6.png"/> 
 </figure>
 
-
-<p>&nbsp;</p>
-
+<p> </p>
 <p>To see our system in action, check out the assistive food manipulation project!</p>
 </div>
       </div>
@@ -261,7 +236,7 @@
     <div class="row">
       <div class="col-12">
         <div class="footer-inner">
-          <h3 class="footer-title">Food Manipulation</h3>
+          <h3 class="footer-title">Robot Assisted Feeding</h3>
           <ul>
             
             

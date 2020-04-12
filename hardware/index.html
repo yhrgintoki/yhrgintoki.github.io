@@ -11,7 +11,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.cbdd764ebbb1c6fbc52f1810008eb2cc5435eadbdbfb29abe4ff61e37811a74f.css">
+  <link rel="stylesheet" href="/css/style.min.396f18053a5bf413c99394e2e3e4247128fb3a9dfc4e3fd20eb69d2fb5482c42.css">
   
 
   
@@ -22,13 +22,6 @@
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     <li class="menu-item-publications">
       <a href="/publications/">
@@ -85,22 +78,13 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg"/></a>
+      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
-    
-    
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     
     
@@ -131,20 +115,24 @@
     
     
     
-    <li class="sub-menu">
-        <button class="dropbtn">Open Hardware</button>
-    <ul class="sub-menu-content">
+    <div class = "dropdown">
+    <button class="dropbtn">
+      <li class="menu-item-open hardware"></li>
+        <span>Open Hardware</span>
+      <li>
+    </button>
+    <ul class="dropdown-content">
       
         <li class="menu-item-tactile sensor">
-          <a href="/hardware/gts/">Tactile Sensor</a>
+          <a href="/hardware/gelsight-mini-tactile-sensor/">Tactile Sensor</a>
         </li>
       
         <li class="menu-item-wireless perception module">
-          <a href="/hardware/wpm/">Wireless Perception Module</a>
+          <a href="/hardware/wireless-perception-module/">Wireless Perception Module</a>
         </li>
       
     </ul>
-    </li>
+    </div>
     
     
     
@@ -191,10 +179,7 @@
     <div class="row justify-content-start">
       <div class="col-12 col-md-12 col-lg-6 order-2 order-lg-1">
         <div class="content">
-        
-
-<h1 id="ada">Ada</h1>
-
+        <h1 id="ada">Ada</h1>
 <p>ADA, the Assistive Dextrous Arm, mimics equipment used in real homes by people with mobility impairments. It consists of a Kinova JACO robotic arm mounted on a powered ROVI Mobility wheelchair. It is the main platform for our research thrust on assistive robotics and, specifically, robot-assisted feeding for people with upper-extremity impairments. The arm has 2 fingers that grasp a fork with a 3D-printed fork holder. For haptic feedback, it can either use the Forque, a fork instrumented with a 6-axis ATI Nano25 Force-Torque sensor, or a custom tactile sensor. For visual feedback, we designed a custom mount for the Intel RealSense D415 and Intel Joule 570x to wirelessly transmit RGBD video.</p>
 
       </div>
@@ -215,10 +200,10 @@
     <div class="col-12 col-md-6 mb-2 "><div class="tutorial tutorial-summary">
   <div class="tutorial-content">
     <h2 class="tutorial-title">
-      <a href="https://yhrgintoki.github.io/hardware/gts/">Tactile Sensor</a>
+      <a href="https://yhrgintoki.github.io/hardware/gelsight-mini-tactile-sensor/">Gelsight-Mini Tactile Sensor</a>
     </h2>
     
-    <p>A vision-based tactile sensors that employ cameras to capture high-resolution tactile information</p>
+    <p>Vision-based tactile sensors</p>
     
   </div>
 </div></div>
@@ -226,7 +211,7 @@
     <div class="col-12 col-md-6 mb-2 "><div class="tutorial tutorial-summary">
   <div class="tutorial-content">
     <h2 class="tutorial-title">
-      <a href="https://yhrgintoki.github.io/hardware/wpm/">Wireless Perception Module</a>
+      <a href="https://yhrgintoki.github.io/hardware/wireless-perception-module/">Wireless Perception Module</a>
     </h2>
     
     <p>A module which interfaces sensors and wirelessly transmits high-bandwidth data over WiFi</p>

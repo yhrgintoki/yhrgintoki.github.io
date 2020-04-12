@@ -11,7 +11,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/style.min.cbdd764ebbb1c6fbc52f1810008eb2cc5435eadbdbfb29abe4ff61e37811a74f.css">
+  <link rel="stylesheet" href="/css/style.min.396f18053a5bf413c99394e2e3e4247128fb3a9dfc4e3fd20eb69d2fb5482c42.css">
   
 
   
@@ -22,13 +22,6 @@
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     <li class="menu-item-publications">
       <a href="/publications/">
@@ -85,22 +78,13 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg"/></a>
+      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
     </div>
     <div class="logo-mobile">
       <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
-    
-    
-    
-    <li class="menu-item-overview">
-      <a href="/overview/">
-        
-        <span>Overview</span>
-      </a>
-    </li>
     
     
     
@@ -131,20 +115,24 @@
     
     
     
-    <li class="sub-menu">
-        <button class="dropbtn">Open Hardware</button>
-    <ul class="sub-menu-content">
+    <div class = "dropdown">
+    <button class="dropbtn">
+      <li class="menu-item-open hardware"></li>
+        <span>Open Hardware</span>
+      <li>
+    </button>
+    <ul class="dropdown-content">
       
         <li class="menu-item-tactile sensor">
-          <a href="/hardware/gts/">Tactile Sensor</a>
+          <a href="/hardware/gelsight-mini-tactile-sensor/">Tactile Sensor</a>
         </li>
       
         <li class="menu-item-wireless perception module">
-          <a href="/hardware/wpm/">Wireless Perception Module</a>
+          <a href="/hardware/wireless-perception-module/">Wireless Perception Module</a>
         </li>
       
     </ul>
-    </li>
+    </div>
     
     
     
@@ -191,16 +179,10 @@
     <div class="col-12 col-md-8">
       <div class="service service-single">
         <h1 class="title">Robot-assited Feeding</h1>
-        <div class="content">
-
-<p>By Tapomayukh Bhattacharjee</p>
-
+        <div class="content"><p>By Tapomayukh Bhattacharjee</p>
 <iframe width="800" height="450" style="margin-bottom:25px" src="https://www.youtube.com/embed/t2eO4CD-0WY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <p>Eating free-form food is one of the most intricate manipulation tasks we perform in our daily lives, demanding robust nonprehensile manipulation of a deformable hard-to-model target. Automating food manipulation is daunting as the universe of foods, cutlery, and human strategies is massive. To understand how humans manipulate food items during feeding and to explore ways to adapt their strategies to robots, we collected human trajectories by asking them to pick up food and feed it to a mannequin. From the analysis of the collected haptic and motion signals, we demonstrate that humans adapt their control policies to accommodate to the compliance and shape of the food item being acquired. We develop a taxonomy of manipulation strategies for feeding to highlight such policies and propose a set of haptic classifiers to generate policies based on a class of food items. Our analysis of success and failure cases of human and robot policies further highlights the importance of adapting the policy to the food item.</p>
-
 <p>Successful robotic assistive feeding depends on reliable bite acquisition and easy bite transfer. The latter constitutes a unique type of robot-human handover where the human needs to use the mouth. This places a high burden on the robot to make the transfer easy. We believe that the ease of transfer not only depends on the transfer action but also is tightly coupled with the way a food item was acquired in the first place. To determine the factors influencing good bite transfer, we designed both skewering and transfer primitives and developed a robotic feeding system that uses these manipulation primitives to feed people autonomously. Our experiments and analysis show that an intelligent food item dependent skewering strategy improves the bite acquisition success rate and that the choice of skewering location and fork orientation improves the ease of bite transfer significantly.</p>
-
 <h1 id="interesting-research-questions">Interesting Research Questions</h1>
 </div>
       </div>
